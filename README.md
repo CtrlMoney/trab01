@@ -1,5 +1,5 @@
-# TRABALHO 01:  Título do Trabalho
-Trabalho desenvolvido durante a disciplina de BD1
+# TRABALHO 01: Ctrl+Money
+Trabalho desenvolvido durante a disciplina de BD2
 
 # Sumário
 
