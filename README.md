@@ -5,25 +5,32 @@ Trabalho desenvolvido durante a disciplina de BD2
 
 ### 1. COMPONENTES<br>
 Integrantes do grupo<br>
-primeiro_componente_do_grupo:email_primeiro_componente@dominio.com<br>
-segundo_componente_do_grupo:email_segundo_componente@dominio.com<br>
+Brendon Mauro:email_primeiro_componente@dominio.com<br>
+Jennifer de Castro : jenny_cg23@hotmail.com<br>
+Joel Will: <br>
+Larrisa Motta: larissasantosdamotta@gmail.com<br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
-Este documento contém a especificação do projeto do banco de dados <nome do projeto> 
+Este documento contém a especificação do projeto do banco de dados <b> Crtl+Money<\b>
 <br>e motivação da escolha realizada. <br>
 
-> A empresa "Devcom Projetos" visa colaborar com desenvolvimento de projetos para uma sociedade melhor. Sabendo-se dos desafios para gerenciar projetos dentro de uma empresa e visando unir as informações relativas a funcionários, departamentos e projetos em um mesmo local, ficamos motivados com o desenvolvimento deste sistema. O Sistema "Devcom" tem como objetivo gerenciar todas as informações ao desenvolvimento das atividades de projetos em diversas localidades do país. Para realizar suas operações adequadamente e empresa necessita que sistema que armazene informações relativas aos Projetos, Departamentos e Empregados, além de também armazenar dados sobre  Dependentes e Históricos de Salário dos empregados. O sistema deverá gerar um conjunto de relatórios que por sua vez atenderá os anseios da empresa em questão.
+Ter um bom controle dos seus gastos é uma necessidade premente de todo cidadão. Tempo é dinheiro. E, dinheiro bem administrado, é sinônimo de sono tranquilo.
+Portanto, Ctrl+Money  vai além do básico e permite que você faça controles incríveis, essenciais para suas finanças. Com gráficos simples, você sabe de onde vem e para onde vai o seu dinheiro e ainda oferece funcionalidades de previsão para auxiliar o melhor planejamento do seu futuro e poder instituir metas a serem cumpridas.
+
  
 
-### 3.MINI-MUNDO Novo<br>
+### 3.MINI-MUNDO<br>
 
-Descrever o mini-mundo! (Não deve ser maior do que 30 linhas) <br>
-Entrevista com o usuário e identificação dos requisitos.<br>
-Descrição textual das regras de negócio definidas como um  subconjunto do mundo real 
-cujos elementos são propriedades que desejamos incluir, processar, armazenar, 
-gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.
+DO sistema opera com usuários cadastrando suas receitas e despesas de cada mês. Um usuário consegue acessar o portal através de um login e uma senha.
+Para facilitar o gerenciamento de formas de pagamento, um usuário pode cadastrar seus cartões de crédito, informando o nome do cartão, seu limite, dia de fechamento da conta e data de vencimento da mesma.
+Uma pessoa possui receitas e despesas, que serão subdivididas em categorias. As categorias envolvendo entrada de dinheiro são: salário, vendas, pensão e outros. Já as categorias envolvendo a saída de dinheiro são: alimentação, moradia, educação, transporte, lazer e outros. Um usuário poderá visualizar qual categoria é mais lucrativa ou gera mais prejuízo em um determinado mês. Além disso, o site será capaz de exibir o fluxo de caixa de um ano selecionado.
+Dentro do portal, é possível exibir as receitas e/ou despesas de um determinado mês subdividindo em suas categorias. Dentro destas categorias, é possível detalhá-las, exibindo todos os itens de despesas referentes ao grupo selecionado.
+As receitas possuem nome, valor, data de recebimento, e se é fixa. Já as despesas dispõem de nome, data de compra, forma de pagamento, além de valor e data de pagamento (se pago em dinheiro), ou valor da parcela e número de parcelas (caso seja pago no cartão). O cliente tem acesso a exibição dos gastos de um cartão selecionado em um determinado mês.
+No final de cada mês, ocorre o fechamento de contas, onde é realizado um cálculo para saber se todas as contas foram de fato pagas. O usuário informa a quantia que realmente foi paga naquele mês específico e, caso não seja igual o valor total esperado para sanar todas as despesas daquele mês, é calculado a diferença entre o valor esperado e o valor real pago. O resultado obtido desta conta será somado no próximo mês, aparecendo como despesa acumulada.
+As receitas e/ou despesas em dinheiro serão consideradas como recebidas e/ou pagas quando a data de recebimento/pagamento forem maiores ou iguais ao dia corrente.
+Somando-se a isso, é possível um usuário ter acesso de total de receitas e/ou despesas de um mês específico. Além disso, é possível visualizar através de gráficos, o quanto de orçamento ele possui em caixa no momento atual. Este valor é calculado baseado no seu histórico, onde é somado o valor total resultante de todos os meses anteriores.
+Será possível visualizar, através de um gráfico, a previsão de receitas, despesas e caixa disponíveis para o cliente nos próximos três meses após o mês atual. O cálculo é realizado de acordo com o histórico do usuário, portanto é imprescindível que o usuário possua pelo menos 3 meses com dados registrados.
 
-> O sistema proposto para a "Devcom Projetos conterá as informacões aqui detalhadas. Dos Projetos serão armazenados o número, nome e cidade. Dos Departamentos serão armazenados o número e nome. O cliente destacou que cada projeto pode ter vários departamentos auxiliando no seu desenvolvimento, e cada departamento pode estar envolvido em vários projetos. Os dados relativos aos empregados que serão armazenados são: rg, nome, cpf, salário, data inicial do salario e supervisor de cada empregado. É importante destacar que cada empregado pode ser supervisionado por outro empregado, e obrigatoriamente deve estar alocado a um único departamento, mas pode gerenciar vários departamentos ou não gerenciar nenhum. Um empregado também pode participar de vários projetos, caso seja necessário, mas não precisa obrigatoriamente estar alocado em algum projeto. Com relação aos dependentes serão armazenadas as informações de nome do dependente, data de nascimento, sexo e grau de parentesco. Cada empregado pode ter vários dependentes, mas um dependente esta associado apenas a um único empregado. Com relação ao histórico de salário devemos armazenar as informações de valor do salário, data de início do salário no período e data final do salário no período. É importante lembrar que cada funcionario pode ter diversos eventos de histórico de salário associados a ele visto que este dado pode ser alterado várias vezes. 
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 Neste ponto a codificação não e necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas <br>
