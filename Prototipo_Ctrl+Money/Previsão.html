@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+  <title>Previsões</title>
+  <link rel="icon" href="C:/Users/laly_/Desktop/Atividades/TRABS/Trabalho integrado/Chart.bundle.min.js">
+  <link rel="stylesheet" href="meu.css"> </head>
+
+<body>
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <a class="navbar-brand" href="Index.html">
+      <i class="fa d-inline fa-lg fa-cloud"></i>
+      <b>Ctrl+Money</b>
+    </a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar2SupportedContent">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbar2SupportedContent">
+      <ul class="navbar-nav w-100">
+        <li class="nav-item">
+          <a class="nav-link" href="Dashboard.html">
+            <i class="fa d-inline fa-lg fa-pie-chart"></i>&nbsp;Dashboard
+            <br> </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Previsão.html">
+            <i class="fa d-inline fa-lg fa-bar-chart"></i>&nbsp;Previsões
+            <br> </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Fluxo de Caixa.html">
+            <i class="fa d-inline fa-lg fa-line-chart"></i>&nbsp;Fluxo de Caixa
+            <br> </a>
+        </li>
+        <li class="nav-item mr-auto">
+          <a class="nav-link" href="Meus Cartões.html">
+            <i class="fa d-inline fa-lg fa-credit-card"></i>&nbsp;Meus Cartões
+            <br> </a>
+        </li>
+        <li>
+          <a class="btn nav-button mt-2 mt-md-0 navbar-btn btn-light text-dark" href="Index.html">
+            <i class="fa d-inline fa-lg fa-sign-out"></i> Logout</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="content">
+    <main>
+      <div class="py-3">
+        <div class="container">
+          <div class="row bg-primary">
+            <div class="align-sefl-center col-2"></div>
+            <div class="align-self-center col-8">
+              <p class="text-center text-whit lead m-0">Previsão 2018</p>
+            </div>
+            <div class="col-2">
+              <button class="btn btn-primary pull-right">
+                <i class="fa fa-3x fa-angle-right mx-2 d-inline"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <canvas id="previsao-line-chart"></canvas>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="bg-dark text-white p-3 mt-auto">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="align-self-center">
+            <a href="https://www.facebook.com" target="_blank" class="">
+              <i class="fa fa-fw fa-facebook fa-3x text-white"></i>
+            </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 mt-3 text-center">
+            <p>© Copyright 2018 Ctrl+Money - All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="Chart.bundle.min.js"></script>
+  <script>
+    new Chart(document.getElementById("previsao-line-chart"),{
+      "type":"bar",
+      "data":{
+      	"labels":["Janeiro", "Fevereiro", "Março","Abril","Maio","Junho","Julho","Agosto","setembro","Outubro","Novembro","Dezembro"],
+        "datasets":[
+          {"label":"Receitas",
+                  "data":[2800,1880,2555,2555,2405,2355,2360,,,,,],
+                  "fill":false,
+                  "backgroundColor":'rgba(18,187,173, 1)'
+          },
+          {"label":"Receitas Prevista",
+                  "data":[,,,,,,,2465,2495,2692,2792,2890],
+                  "fill":false,
+                  "backgroundColor":'rgba(18,187,173, 0.3)',
+          },
+          {"label":"Despesas",
+                  "data":[1920,1875,2000,2150,2050,1995,1895,,,,,],
+                  "fill":false,
+                  "backgroundColor":'rgba(220,53,69, 1)',
+          },
+          {"label":"Despesas Prevista",
+                  "data":[,,,,,,,1970,1803,1900,1902,2300],
+                  "fill":false,
+                  "backgroundColor":'rgba(220,53,69, 0.3)',
+          },
+          {"label":"Caixa",
+                  "data":[880,5,555,405,355,360,465,,,,,],
+                  "fill":false,
+                  "backgroundColor":'rgba(79,112,206, 1)',
+          },
+          {"label":"Caixa Previsto",
+                  "data":[,,,,,,,495,692,792,890,590],
+                  "fill":false,
+                  "backgroundColor":'rgba(79,112,206, 0.3)',
+          }
+        ]
+      },
+        "options":{
+          "scales":{
+            "yAxes":[{
+              "ticks":{
+                "beginAtZero":true
+              }
+            }]
+          }
+         }
+      }
+    );
+  </script>
+</body>
+
+</html>
