@@ -100,8 +100,7 @@ Será possível visualizar, através de um gráfico, a previsão de receitas, de
 ![Alt text](https://github.com/CtrlMoney/trab01/blob/master/Modelos/Modelo%20Logico.png "Modelo Lógico")
 
 ### 7	MODELO FÍSICO<br>
-        a) inclusão das instruções de criacão das estruturas DDL 
-        (criação de tabelas, alterações, etc..)          
+<a href="https://github.com/CtrlMoney/trab01/blob/master/Modelos/modeloFisico.sql">MODELO FÍSICO</a><br>          
         
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 #### 8.1 DETALHAMENTO DAS INFORMAÇÕES
