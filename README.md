@@ -62,7 +62,7 @@ Será possível visualizar, através de um gráfico, a previsão de receitas, de
         * O protótipo deve possui no mínimo duas relações N para N
         * o mínimo de entidades do modelo conceitual será igual a 5
         
-![Alt text](https://github.com/discipbd1/trab01/blob/master/images/concept_sample.png?raw=true "Modelo Conceitual")
+![Alt text](https://github.com/CtrlMoney/trab01/blob/master/Modelos/Modelo%20conceitual.png "Modelo Conceitual")
     
     B) NOTACAO UML (Caso esteja fazendo a disciplina de analise)
     C) QUALIDADE 
@@ -97,6 +97,7 @@ Será possível visualizar, através de um gráfico, a previsão de receitas, de
         a) inclusão do modelo lógico do banco de dados
         b) verificação de correspondencia com o modelo conceitual 
         (não serão aceitos modelos que não estejam em conformidade)
+![Alt text](https://github.com/CtrlMoney/trab01/blob/master/Modelos/Modelo%20Logico.png "Modelo Lógico")
 
 ### 7	MODELO FÍSICO<br>
         a) inclusão das instruções de criacão das estruturas DDL 
