@@ -5,9 +5,9 @@ Trabalho desenvolvido durante a disciplina de BD2
 
 ### 1. COMPONENTES<br>
 Integrantes do grupo<br>
-Brendon Mauro:email_primeiro_componente@dominio.com<br>
+Brendon Mauro brendonmauro@gmail.com:<br>
 Jennifer de Castro : jenny_cg23@hotmail.com<br>
-Joel Will: <br>
+Joel Will:joel-willb@hotmail.com <br>
 Larrisa Motta: larissasantosdamotta@gmail.com<br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
@@ -40,15 +40,14 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 ![Alt text](https://github.com/discipbd1/trab01/blob/master/balsamiq.png?raw=true "Title")
 ![Arquivo PDF do Protótipo Balsamiq feito para Empresa Devcom](https://github.com/discipbd1/trab01/blob/master/arquivos/EmpresaDevcom.pdf?raw=true "Empresa Devcom")
 #### 4.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
-    a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes? 
-    b) Crie uma lista com os 5 principais relatórios que poderão ser obtidos por meio do sistema proposto!
+  
     
-> A Empresa DevCom precisa inicialmente dos seguintes relatórios:
-* Relatório que informe quais são os gerentes de cada departamento incluindo as seguintes informações: número do departamento,  nome do departamento, e nome do gerente.
-* Relatório de empregados por projeto incluindo as seguintes informações: número do projeto, nome do projeto, rg do empregado, nome do empregado e quantidade de horas de trabalho do empregado alocadas ao projeto.
-* Relatório de empregados com dependentes incluindo as seguintes informações: rg do empregado, nome do empregado, nome do dependente, tipo de relação, data de nascimento do dependente e sexo do dependente.
-* Relatório com a quantidade de empregados por cada departamento incluindo as seguintes informações: nome do departamento, supervisor e quantidade de empregados alocados no departamento.
-* Relatório de supervisores e supervisionados incluindo as seguintes informações: nome do supervisor e nome do supervisionado.
+> O sistema <b> Crtl+Money <\b> poderá ser capaz de gerar os seguintes relatórios:
+* Relatório de fluxo de caixa do usuário .
+* Relatório de previsão de saldo dos próximos três meses, a partir da data atual. Este relatório será gerado a partir do histórico do usuário.
+* Relatório de receitas dividindo-as nas seguintes categorias: salário, pensão, venda e outros .
+* Relatório de despesas dividindo-as nas seguintes categorias: alimentação, moradia, lazer, transporte, educação e outros.
+* [FALTA 1]
  
  
 #### 4.2 TABELA DE DADOS DO SISTEMA:
