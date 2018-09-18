@@ -1,0 +1,20 @@
+Todas são GRATUITOS
+
+Visual Studio - https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&rel=15
+	- Importante para desenvolvimento em C# e outras ferramentas que auxiliam o desenvolvimento
+
+
+SQL Server 2017 Express- https://go.microsoft.com/fwlink/?linkid=853017
+	- Importante pois é a SGBD que tem melhor integração com o Visual Studio e Frameworks
+ 
+
+SQL Server Management Studio (SSMS) - https://go.microsoft.com/fwlink/?linkid=875802
+	- Util pois ajuda a manipular o banco de dados
+
+
+O restante das coisas que precisão ser instaladas dentro do Visual Studio Installer:
+	- .NET
+	- ASP.NET
+
+Os dois frameworks,.NET e ASP.NET são fundamentais, sendo que o ASP.NET é como o Spring do Java, além de possibilitar usar código C# nas paginas HTML (.cshtml) via Razor que é semelhante ao JSP, mas é mais poderoso.
+Outras frameworks serão adicionados no decorrer do projeto, como o EntityFramework, Identity, Owin, e AutoMapper, sendo que estes podem ser adicionados por nós mesmos via Nuget no próprio Visual Studio.
