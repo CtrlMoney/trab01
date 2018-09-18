@@ -21,7 +21,7 @@ Portanto, Ctrl+Money  vai além do básico e permite que você faça controles i
 
 ### 3.MINI-MUNDO<br>
 
-DO sistema opera com usuários cadastrando suas receitas e despesas de cada mês. Um usuário consegue acessar o portal através de um login e uma senha.
+O sistema opera com usuários cadastrando suas receitas e despesas de cada mês. Um usuário consegue acessar o portal através de um login e uma senha.
 Para facilitar o gerenciamento de formas de pagamento, um usuário pode cadastrar seus cartões de crédito, informando o nome do cartão, seu limite, dia de fechamento da conta e data de vencimento da mesma.
 Uma pessoa possui receitas e despesas, que serão subdivididas em categorias. As categorias envolvendo entrada de dinheiro são: salário, vendas, pensão e outros. Já as categorias envolvendo a saída de dinheiro são: alimentação, moradia, educação, transporte, lazer e outros. Um usuário poderá visualizar qual categoria é mais lucrativa ou gera mais prejuízo em um determinado mês. Além disso, o site será capaz de exibir o fluxo de caixa de um ano selecionado.
 Dentro do portal, é possível exibir as receitas e/ou despesas de um determinado mês subdividindo em suas categorias. Dentro destas categorias, é possível detalhá-las, exibindo todos os itens de despesas referentes ao grupo selecionado.
