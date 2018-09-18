@@ -34,7 +34,7 @@ Será possível visualizar, através de um gráfico, a previsão de receitas, de
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 
-![Arquivo com os protótipos em html](https://github.com/CtrlMoney/trab01/blob/master/Prototipo_Ctrl%2BMoney.zip)
+[Arquivo com os protótipos em html](https://github.com/CtrlMoney/trab01/blob/master/Prototipo_Ctrl%2BMoney.zip)
 #### 4.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
   
     
