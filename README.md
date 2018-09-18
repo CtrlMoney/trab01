@@ -11,7 +11,7 @@ Joel Will:joel-willb@hotmail.com <br>
 Larrisa Motta: larissasantosdamotta@gmail.com<br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
-Este documento contém a especificação do projeto do banco de dados <b> Crtl+Money<\b>
+Este documento contém a especificação do projeto do banco de dados <b> Ctrl+Money</b>
 <br>e motivação da escolha realizada. <br>
 
 Ter um bom controle dos seus gastos é uma necessidade premente de todo cidadão. Tempo é dinheiro. E, dinheiro bem administrado, é sinônimo de sono tranquilo.
@@ -42,7 +42,7 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 #### 4.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
   
     
-> O sistema <b> Crtl+Money <\b> poderá ser capaz de gerar os seguintes relatórios:
+> O sistema <b> Ctrl+Money </b> poderá ser capaz de gerar os seguintes relatórios:
 * Relatório de fluxo de caixa do usuário .
 * Relatório de previsão de saldo dos próximos três meses, a partir da data atual. Este relatório será gerado a partir do histórico do usuário.
 * Relatório de receitas dividindo-as nas seguintes categorias: salário, pensão, venda e outros .
