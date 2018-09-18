@@ -7,7 +7,7 @@ Trabalho desenvolvido durante a disciplina de BD2
 Integrantes do grupo<br>
 Brendon Mauro brendonmauro@gmail.com:<br>
 Jennifer de Castro : jenny_cg23@hotmail.com<br>
-Joel Will:joel-willb@hotmail.com <br>
+Joel Will: joel-willb@hotmail.com <br>
 Larrisa Motta: larissasantosdamotta@gmail.com<br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
